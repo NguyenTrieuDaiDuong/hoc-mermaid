@@ -1,6 +1,7 @@
 ```mermaid
-graph TD
-A[Bắt đầu] --> B[GitHub tự động hỗ trợ]
-B --> C[Không cần cài đặt]
-C --> D[Xem ngay kết quả]
+graph LR
+A -->|Có| B
+B -->|Không| C
+C -.Có thể.-> D
+D ==Chắc chắn==> E
 ```
